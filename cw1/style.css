@@ -7,30 +7,28 @@ body {
     background-color: rgb(167, 79, 79);}
 
 
-    article {
-        border: 5px dashed green;}
 
-    .TopArticle{
+    .toparticle{
         background-color: rgb(225, 130, 130);}
 
             h1{
                 /* 1 wartość - z każdej strony*/
                 /* 2 wartości - góra i dół, prawo i lewo */
-                padding:10px 100px;
+                padding:0;
                 /* 4 wartości - góra, prawo, dół, lewo */
-                margin: 10px 30px 40px;
+                margin:0;
                 background-color: yellow;
 
             
             }
-            .Topheader{
+            .topheader{
                 border: 2px dashed yellow;
                 display: flex;
                 justify-content: space-between;}
 
             /* wszyscy potomkowie topheadera */
-            .topHeader h1,
-            .topHeader nav {
+            .topheader h1,
+            .topheader nav {
                 border: 10px solid red;
                 margin: 2px;}
 
