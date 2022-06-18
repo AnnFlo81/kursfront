@@ -9,9 +9,33 @@ body {
 
 
     article {
-        border: 5px dashed: rgb(167, 79, 79);
+        border: 5px dashed green;
     {
 
     TopArticle{
         background-color: rgb(225, 130, 130);
         {
+
+            h1{
+                /* 1 wartość - z każdej strony*/
+                /* 2 wartości - góra i dół, prawo i lewo */
+                padding:10px 100px;
+                /* 4 wartości - góra, prawo, dół, lewo */
+                margin: 10px 30px 40px;
+                background-colour: yellow:
+
+            
+            }
+            .Topheader{
+                border: 2px dashed yellow:
+                display: flex;
+                justify-content: space-around:
+
+            }
+
+            /* wszyscy potomkowie topheadera */
+            .topHeader h1,
+            .topHeader nav {
+                border: 10px solid red
+                margin: 2px;
+            }
