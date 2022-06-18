@@ -4,17 +4,14 @@ właściwość: wartość;
 }
 */
 body {
-    background-color: rgb(167, 79, 79);
-{
+    background-color: rgb(167, 79, 79);}
 
 
     article {
-        border: 5px dashed green;
-    {
+        border: 5px dashed green;}
 
-    TopArticle{
-        background-color: rgb(225, 130, 130);
-        {
+    .TopArticle{
+        background-color: rgb(225, 130, 130);}
 
             h1{
                 /* 1 wartość - z każdej strony*/
@@ -22,20 +19,17 @@ body {
                 padding:10px 100px;
                 /* 4 wartości - góra, prawo, dół, lewo */
                 margin: 10px 30px 40px;
-                background-colour: yellow:
+                background-color: yellow;
 
             
             }
             .Topheader{
-                border: 2px dashed yellow:
+                border: 2px dashed yellow;
                 display: flex;
-                justify-content: space-between;
-
-            }
+                justify-content: space-between;}
 
             /* wszyscy potomkowie topheadera */
             .topHeader h1,
             .topHeader nav {
-                border: 10px solid red
-                margin: 2px;
-            }
+                border: 10px solid red;
+                margin: 2px;}
