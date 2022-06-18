@@ -33,3 +33,9 @@ body {
             .topHeader nav {
                 border: 10px solid red;
                 margin: 2px;}
+
+                .messageForm{
+                    border: 2px dashed red;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;}
