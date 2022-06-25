@@ -4,62 +4,67 @@ właściwość: wartość;
 }
 */
 body {
-    background-color: rgb(167, 79, 79);}
+    background-color: rgba(215, 181, 224, 0.81);
+}
 
 
 
     
 
-            h1{
-                /* 1 wartość - z każdej strony*/
-                /* 2 wartości - góra i dół, prawo i lewo */
-                padding:0;
-                /* 4 wartości - góra, prawo, dół, lewo */
-                margin:0;
-                background-color: yellow;
+h1{
+/* 1 wartość - z każdej strony*/
+/* 2 wartości - góra i dół, prawo i lewo */
+    padding:0;
+/* 4 wartości - góra, prawo, dół, lewo */
+    margin:0;
+    
+}
+.topheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-            
-            }
-            .topheader{
-                border: 2px dashed yellow;
-                display: flex;
-                justify-content: space-between;}
+/* wszyscy potomkowie topheadera */
+.topheader h1,
+.topheader nav {
+    margin: 2px;
 
-            /* wszyscy potomkowie topheadera */
-            .topheader h1,
-            .topheader nav {
-                border: 10px solid red;
-                margin: 2px;}
+}
 
-                .messageForm{
-                    border: 2px dashed red;
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;}
-                    
-                    main{
-                        display:flex;
-                        flex-direction: column;
-                       align-items: center;
-                    }
-                    .toparticle header{
-                        border: 5px dashed rgb(225, 130, 130);
-                        display:flex;
-                        flex-direction: column;
-                       align-items: center;}
+.messageForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-                       header{
-                        display:flex;
-                        flex-direction: column;
-                        align-items: center;
-                        background-color: red;
-                       }
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toparticle header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-                       .toparticle{
+.toparticle{
+    padding: 1rem;
 
-                    display:flex;
-                    flex-direction: column;
-                    align-items: center;
-                       }
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-                       
+@media (min-width:768px){
+    .toparticle{
+        flex-direction: row;
+        
+    }
+    .toparticle header, 
+    .toparticle table{
+        flex:1;
+    }
+}
+
