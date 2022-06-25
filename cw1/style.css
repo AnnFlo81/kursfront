@@ -8,8 +8,7 @@ body {
 
 
 
-    .toparticle{
-        background-color: rgb(225, 130, 130);}
+    
 
             h1{
                 /* 1 wartość - z każdej strony*/
@@ -37,3 +36,30 @@ body {
                     display: flex;
                     flex-direction: column;
                     align-items: center;}
+                    
+                    main{
+                        display:flex;
+                        flex-direction: column;
+                       align-items: center;
+                    }
+                    .toparticle header{
+                        border: 5px dashed rgb(225, 130, 130);
+                        display:flex;
+                        flex-direction: column;
+                       align-items: center;}
+
+                       header{
+                        display:flex;
+                        flex-direction: column;
+                        align-items: center;
+                        background-color: red;
+                       }
+
+                       .toparticle{
+
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                       }
+
+                       
