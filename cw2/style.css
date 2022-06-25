@@ -22,4 +22,24 @@ footer{
     position:fixed;
     bottom:0;
     width:100%;
+    background-color: aquamarine;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+section{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:calc( 3rem + 10px ) ;
+}
+article{
+    border: 5px solid #000;
+    aspect-ratio: 1/1;
+    margin:.1rem;
+    margin-bottom: 0;
+
+
+
 }
