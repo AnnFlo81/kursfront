@@ -47,9 +47,12 @@ p{
     text-align: center;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    color: hsla(0, 0%, 100% 0.75);
+    color: hsla(0, 0%, 100%, 0.75);
     line-height:1.6em;
+}
 
-
+section > section{
+    display: flex;
+    flex-direction: column;
 
 }
