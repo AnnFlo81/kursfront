@@ -52,7 +52,6 @@ p{
 }
 
 section > section{
-    border:2px dashed red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,5 +59,15 @@ section > section{
 }
 
 h2{
-    text-align: center;
+    text-align:center;
+    font-family: 'Inter', sans-serif;
+}
+
+article p{
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+article{
+    line-height:0;
 }
