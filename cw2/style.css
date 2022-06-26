@@ -48,7 +48,7 @@ article{
 }
 
 @media (min-width:768px){
-    
+
     section{
         flex-direction: row;
         justify-content: center;
@@ -68,6 +68,14 @@ article:nth-child(2){
     background-image: url(https://zwierzaki.pl/wp-content/uploads/2021/12/zebra-1200x675.jpg);  
 }
 
+article:nth-child(3){
+    background-image: url(https://th.bing.com/th/id/R.d9d2c1cee354691f7d18a1bc6881e719?rik=Tw%2btToyC1tolFQ&riu=http%3a%2f%2fgalerius.pl%2fimages%2f1247324246%2f1_780%2f51910327.jpg&ehk=eWXAwsfIIetwV%2bBa8%2f0kVH2aW%2boRpBH0ECofyQhl450%3d&risl=&pid=ImgRaw&r=0);
+}
+
+article:nth-child(4){
+    background-image: url(https://wally.com.pl/galerie/f/fototapeta-na-sciane-samotnie-wedrujacy-slon-fp-2541_22339.jpg);
+}
+
 
 article::after{
     content: "Kliknij aby zobaczyć zwierzę";
@@ -85,3 +93,4 @@ article::after{
 article:active:after{
     opacity:0;
 }
+
