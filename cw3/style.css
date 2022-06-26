@@ -42,7 +42,9 @@ main > section{
 }
 
 section > section{
-    border:2px dashed red;
+    margin-top: 2rem;
+    display:flex;
+    align-items: center;
 }
 
 strong{
@@ -55,5 +57,14 @@ s{
     color: hsl(228, 12%, 48%);
     font-family:'Montserrat', sans-serif;
     font-weight: 500;
+    padding-left: 1.5rem;
+
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 1rem;
+    width:100%;
+
 
 }
