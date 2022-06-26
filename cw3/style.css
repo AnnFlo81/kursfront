@@ -33,10 +33,9 @@ p{
     color: hsl(228, 12%, 48%);
     font-family:'Montserrat', sans-serif;
     font-weight: 500;
-    
-
+    font-size:.85rem;
+    line-height: 1.5rem;
 }
-
 
 main > section{
     padding:1.5rem;
