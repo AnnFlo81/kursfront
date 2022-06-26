@@ -50,3 +50,10 @@ strong{
     font-family: 'Fraunces', serif;
     font-size: 2rem;
 }
+
+s{
+    color: hsl(228, 12%, 48%);
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+
+}
