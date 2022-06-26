@@ -1,5 +1,7 @@
+*{box-sizing: border-box;}
 body{
     background-color:  hsl(233, 47%, 7%);
+    color: hsl(0, 0%, 100%);
 }
 
 main{
@@ -8,4 +10,26 @@ main{
 
 span{
     color: hsl(277, 64%, 61%);
+}
+
+header{
+    position: relative;
+}
+
+header img{
+    max-width: 100%;
+    border-radius: 5rem;
+
+}
+
+header:after{
+    content:'AFTER';
+    background-color: hsla(277, 64%, 61%, 0.518);
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+
+
 }
