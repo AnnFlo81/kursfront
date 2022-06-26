@@ -41,3 +41,12 @@ main > section{
     padding:1.5rem;
 }
 
+section > section{
+    border:2px dashed red;
+}
+
+strong{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+}
