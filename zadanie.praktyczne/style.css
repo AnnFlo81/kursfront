@@ -1,5 +1,16 @@
-table, th, td {
+/*
+selector {
+właściwość: wartość;
+}
+*/
+body {
+    background-color: rgba(215, 181, 224, 0.81);
+}
+
+table, th, td{
     border: 1px, solid-black;
+    border-collapse: collapse;
 
 }
+
 
