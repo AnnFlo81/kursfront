@@ -15,9 +15,15 @@ header img{
 h2{
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    letter-spacing: 5px;
 }
 
 h1{
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces', serif;
+}
+
+main > section{
+    border:2px dashed red;
 }
