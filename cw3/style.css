@@ -63,12 +63,18 @@ s{
 
 button{
     background-color: hsl(158, 36%, 37%);
-    border-radius: 1rem;
+    border-radius:.5rem;
     width:100%;
     font-family:'Montserrat', sans-serif;
     color: hsl(0, 0%, 100%);
     margin-top:.8rem;
     padding:.8rem;
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:.8rem;
+
 
 
 
