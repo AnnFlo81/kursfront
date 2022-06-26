@@ -82,6 +82,10 @@ button{
     align-items: center;
     justify-content: center;
     gap:.8rem;
+    cursor:pointer;
+}
+button:active{
+    background-color: hsl(156, 42%, 18%);
 }
 
 .attribution{
