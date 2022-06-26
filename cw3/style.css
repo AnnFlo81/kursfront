@@ -74,9 +74,11 @@ button{
     align-items: center;
     justify-content: center;
     gap:.8rem;
+}
 
-
-
-
-
+.attribution{
+    position: fixed;
+    bottom:0;
+    right:0;
+    font-size:.7em;
 }
